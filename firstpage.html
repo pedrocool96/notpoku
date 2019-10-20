@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- metadata goes in head -->
+	<title>Page created by Pedrocas</title>
+</head>
+<body>
+<!-- content goes in the body -->
+<!-- control+til = comments -->
+
+	<h1>Ola, its me Pedrocas</h1>
+	<h3>just a little page :P</h3>
+	<img width="100" src="https://pbs.twimg.com/profile_images/1135950688830099459/oAAb-RPv_400x400.jpg">
+
+	Make sure to follow me on <a href="http://www.instagram.com/notrealpedro">Instagram</a>
+
+	<!-- <a href="demo.html">Ir para a page 2</a> -->
+
+	<h3>Third title</h3>
+
+	<p> <em> this </em>is some <b> text </b>blah blah blah blahsd</p>
+
+	<ol>
+		<li>Red</li>
+		<li>Yellow</li>
+			<ul>
+				<li>Sunflowers</li>
+			</ul>
+	</ol>
+
+	<table border="1">
+		<thead>
+		<tr>
+			<th>Image</th>
+			<th>Name</th>
+			<th>Type</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+			<td><img width="50" src="http://img4.wikia.nocookie.net/__cb20140328190757/pokemon/images/thumb/2/21/001Bulbasaur.png/200px-001Bulbasaur.png"> </td>
+			<td>Bulbasaur</td>
+			<td>Grass</td>
+		</tr>
+		<tr>
+			<td><img width="50" src="http://img4.wikia.nocookie.net/__cb20140724195345/pokemon/images/thumb/7/73/004Charmander.png/200px-004Charmander.png"> </td>
+			<td>Charmander</td>
+			<td>Fire</td>
+		</tr>
+		</tbody>
+	</table>
+	<!-- %%%%%%%%%%%%%%%% -->
+	<!-- Forms and Inputs -->
+
+	<!-- action = where the form send data to -->
+	<!-- method what HTTP method (get/post) -->
+
+	<h5>Sign here</h5>
+	<!-- <form action="http://wikipedia.org" method="post"> -->
+	<form>	
+		<!-- <label for="username">username:</label> -->
+		<!-- <input type="text" id="username" placeholder="username"> -->
+
+
+		<label>username:
+		<input name="username" type="text" placeholder="
+		username" required>
+		</label>
+		<!-- <input type="color" name=""> -->
+		
+		<label>password:
+		<input name="password" type="password" placeholder="password" pattern=".{5,10}" required title=">5 and <10 characters">
+		</label>
+		<button>Login</button>
+		<!-- <input type="submit" name="entrar"> -->
+	<!-- </form> -->
+
+
+
+	<!-- Radio buttons, Select Tag and TextArea -->
+	<!-- only one can be selected == same name in both -->
+	<!-- <form> -->
+
+	<p>Do you prefer dogs or cats?</p>
+	<label>Dogs:
+	<input type="radio" name="petchoice" value="dogs" required>
+	</label>
+	<label>Cats:
+	<input type="radio" name="petchoice" value="cats" required>
+	</label>
+
+	
+
+	<!-- Select TAG -->
+	<p>What's your current mood?</p>
+
+	<select name="mood">
+		<!-- add values to show in url -->
+		<!-- <option>smile</option> -->
+		<option value="happy">:)</option>
+		<option value="neutral">:|</option>
+		<option value="sad">:(</option>
+	</select>
+
+	<!-- Send a paragraph // comment -->
+
+	<textarea name="paragraph" rows="5" cols="5"> </textarea>
+
+
+	<button>Accept</button>
+
+	</form>
+
+</body>
+</html>
